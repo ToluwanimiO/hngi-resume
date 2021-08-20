@@ -148,7 +148,7 @@ function App() {
         Current Progress
       </div>
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-3 text-center">
             <img src={hng} />
           </div>
           <div className="col-md-9">

@@ -1,25 +1,45 @@
 .App {
   text-align: center;
 }
-.boxed{
-  border: solid 2px #5A5A5A;
-  font-size: 50px;
-  font-weight: 400;
-  padding: 0px 200px 20px;
+@media (min-width: 768px) {
+  .boxed{
+    border: solid 2px #5A5A5A;
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom:20px;
+  }
+  .title-text span{
+    background-color: #A5B592;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 6px;
+    padding: 5px 150px 5px;
+  }
 }
+@media (max-width:767px)
+{
+  .boxed{
+    border: solid 2px #5A5A5A;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom:20px;
+  }
+  .title-text span{
+    background-color: #A5B592;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 6px;
+    /* padding: 5px 150px 5px; */
+  }
+}
+
 .title-text{
   margin-top: -12px;
 }
 .space{
   height: 30px;
 }
-.title-text span{
-  background-color: #A5B592;
-  color: white;
-  font-size: 18px;
-  letter-spacing: 6px;
-  padding: 5px 150px 5px;
-}
+
 .profile
 {
   /* border-radius: 50%; */
