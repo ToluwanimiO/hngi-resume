@@ -1,5 +1,6 @@
 import './styles.css';
 import profile from './assets/test.JPG'
+import hng from './assets/download.png'
 
 function App() {
   return (
@@ -142,8 +143,20 @@ function App() {
             test version of the app is:<a className="project-link" target="_blank" href="https://sqi-forum-app.herokuapp.com/landingpage">https://sqi-forum-app.herokuapp.com/landingpage</a>
             </div>
           </div>
-        </div><br />
-      
+        </div><br /><br />
+        <div className="text-center styled-project">
+        Current Progress
+      </div>
+        <div className="row">
+          <div className="col-md-3">
+            <img src={hng} />
+          </div>
+          <div className="col-md-9">
+          I embarked on a journey with HNGi8- Zuri Internship<br />
+          Join me <a target="_blank" href="https://internship.zuri.team/">here</a>
+          </div>
+        </div>    
+        <br /><br/>
       
       </span>
     </div>
