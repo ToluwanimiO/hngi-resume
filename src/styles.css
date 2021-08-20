@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+.boxed{
+  border: solid 2px #5A5A5A;
+  font-size: 50px;
+  font-weight: 400;
+  padding: 0px 200px 20px;
+}
+.title-text{
+  margin-top: -12px;
+}
+.space{
+  height: 30px;
+}
+.title-text span{
+  background-color: #A5B592;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 6px;
+  padding: 5px 150px 5px;
+}
+.profile
+{
+  /* border-radius: 50%; */
+  height: auto;
+  width: 100%;
+}
+.pad-top
+{
+  margin-top: 20px;
+}
+.p-edits
+{
+  font-size: 20px;
+  border-bottom: #A5B592 2px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.p-edits-sm
+{
+  border-bottom: #A5B592 2px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.git{
+  color: black;
+}
+.git:hover
+{
+  text-decoration: none;
+}
+.pad-top-sm
+{
+  margin-top: 10px;
+}
+.color-green
+{
+  background-color: #A5B592;
+}
+.color-dark
+{
+  background-color: #5A5A5A;
+}
+.block-edits
+{
+  display: block;
+  padding: 5px 0px 5px;
+  color: white;
+  font-weight: 600;
+}
+.borderL-R
+{
+  border-right: solid 1px #9F9F9F;
+  border-left: solid 1px #9F9F9F;
+}
+.spaced-skills {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.text-green
+{
+  color: #A5B592;
+}
+.text-sm
+{
+  font-size: 14px;
+}
+.spaced-text
+{
+  line-height: 30px;
+}
+.styled-project
+{
+  font-size: 30px;
+  border-bottom: #A5B592 2px solid;
+  padding: 0px 10px 5px;
+
+  margin-bottom: 20px;
+}
