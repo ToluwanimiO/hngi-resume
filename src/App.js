@@ -22,18 +22,16 @@ function App() {
         </div>
         <div className="col-md-8 text-center">
           <div className="row">
-            <div className="col-md-7">
+            <div className="col-md-7 pad-top">
               <p><span className="p-edits">About</span></p>
               <p className="text-left">
                 Computer Science major, seeking to use my programming skills to 
                 address solutions in my local community, especially in the 
-                education sector. I am a book lover, started reading at the age of 5 
-                and I have never stopped. I enjoy all kinds of genres, particularly 
-                fantasy, science fiction and Christian historical romance novels. A 
-                particular favorite is the medusa project series by Sophie Mckenzie
+                education sector. I am a book lover. I enjoy all kinds of genres, particularly 
+                fantasy and science fiction. A particular favorite is the medusa project series by Sophie Mckenzie.
               </p>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-5 pad-top">
             <p><span className="p-edits">Contact</span></p>
               <div className="text-left">
                 <table>
@@ -54,16 +52,16 @@ function App() {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4 pad-top">
             <p><span className="block-edits color-green">EDUCATION</span></p>
               <div className="spaced-text">
                 BSC. COMPUTER SCIENCE<br/>
-                3.63/4.0 GPA<br/>
+                {/* 3.63/4.0 GPA<br/> */}
                 <i>University of Ibadan</i><br/>
                 2018-2024 <i>(Expected)</i><br/>
               </div>
             </div>
-            <div className="col-md-4 spaced-line">
+            <div className="col-md-4 spaced-line pad-top">
               <p><span className="block-edits color-dark">SKILLS</span></p>
               <ul className="spaced-skills">
                 <li className="flex-item">HTML</li>
@@ -86,7 +84,7 @@ function App() {
                 <li className="flex-item">PHP</li>
               </ul> */}
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 pad-top">
               <p><span className="block-edits color-green">PROFESSIONAL AFFILIATIONS</span></p>
               <p className="text-left">
                 <b><font className="text-green">DEPUTY CLERK</font>&nbsp;&nbsp;(NACOSS)</b><br />
@@ -120,6 +118,7 @@ function App() {
               An E-commerce web application built with React JS and Django. The link for 
               test version of this web app is: <a className="project-link" target="_blank" href="https://construct-ecommerce.netlify.app/">https://construct-ecommerce.netlify.app/</a>
             </div>
+            <br />
             <b>To-do List Web-App</b>
             <div>
             A to-do list built with vueJS. It was deployed for testing at:<a className="project-link" target="_blank" href="https://planned-todo.netlify.app/">https://planned-todo.netlify.app/</a>
@@ -129,7 +128,7 @@ function App() {
         <br/>
         <div className="row">
           <div className="col-md-2">
-            <p><span className="p-edits-sm">Jan - Feb 2021</span></p>
+            <p><span className="p-edits-sm">Nov - Dec 2020</span></p>
           </div>
           <div className="col-md-10">
             <b>Market List Web-App</b>
@@ -137,6 +136,7 @@ function App() {
             A web application for planning market outings built with React. It has been 
             deployed for testing. Here is the link:  <a className="project-link" target="_blank" href="https://marketlist-organizer.netlify.app/">https://marketlist-organizer.netlify.app/</a>
             </div>
+            <br />
             <b>Forum Web-App</b>
             <div>
             A forum web application for built with Angular and Django. The link for the 
@@ -152,7 +152,7 @@ function App() {
             <img src={hng} />
           </div>
           <div className="col-md-9">
-          I embarked on a journey with HNGi8- Zuri Internship<br />
+          I embarked on a journey with HNGi8- Zuri Internship.
           Join me <a target="_blank" href="https://internship.zuri.team/">here</a>
           </div>
         </div>    
